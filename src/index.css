@@ -1,10 +1,8 @@
 @tailwind base;
-
 @layer base {
     h1 {
         @apply text-[54px] font-black leading-[50px];
     }
-
     h2 {
         @apply text-[24px] font-normal leading-[20px] text-[#ff0a65] tracking-widest mt-2;
     }
@@ -12,9 +10,8 @@
 
 @tailwind components;
 @tailwind utilities;
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
 html,
 body,
 #root {
@@ -31,7 +28,7 @@ body {
 
 #root {
     height: 100%;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Bruno Ace SC', cursive;
     font-weight: 300;
 }
 

@@ -10,8 +10,8 @@ import soundON from '../images/sound-on.png'
 import soundOFF from '../images/sound-off.png'
 import hoverSound from '../sounds/hover.mp3'
 import clickSound from '../sounds/click.mp3'
-import transitionSound from '../sounds/transition.mp3'
-import bgMusic from '../sounds/music.mp3'
+// import transitionSound from '../sounds/transition.mp3'
+import bgMusic from '../sounds/Meditating with Batman (Bruce Wayne) in The Dark Knight  Ambient Music.mp3'
 
 
 const audioBG = new Audio(bgMusic);
