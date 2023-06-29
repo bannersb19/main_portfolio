@@ -4,6 +4,7 @@
     "private": true,
     "dependencies": {
         "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+        "@mediapipe/tasks-vision": "^0.10.2-rc2",
         "@react-three/drei": "^9.77.4",
         "@react-three/fiber": "^8.13.4",
         "@react-three/postprocessing": "^2.14.11",
@@ -15,12 +16,12 @@
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
         "react-scripts": "^5.0.1",
-        "source-map-loader": "^4.0.1",
+        "rollup-plugin-sourcemaps": "^0.6.3",
         "three": "^0.151.3",
         "web-vitals": "^2.1.4"
     },
     "scripts": {
-        "start": "react-scripts start",
+        "start": "cross-env GENERATE_SOURCEMAP=false && react-scripts start",
         "build": "react-scripts build",
         "test": "react-scripts test",
         "eject": "react-scripts eject"
@@ -46,6 +47,7 @@
     "devDependencies": {
         "autoprefixer": "^10.4.13",
         "postcss": "^8.4.20",
+        "source-map-loader": "^4.0.1",
         "tailwindcss": "^3.2.4"
     }
 }
