@@ -20,11 +20,11 @@ const Contact = () => {
                         <p className='text-primary text-[20px] md:text-[40px]'>my-email@email.com</p>
                     </div>
                     <div className='pl-[10px] pt-[10px] text-center'>
-                        <a href=""><img className='inline w-[40px] h-[40px] md:w-[60px] md:h-[60px]' src={instagramIcon} alt="Instagram Icon" /></a>
-                        <a href=""><img className='inline ml-[10px] w-[40px] h-[40px] md:w-[60px] md:h-[60px]' src={linkedinIcon} alt="linkedin Icon" /></a>
-                        <a href=""><img className='inline ml-[10px] w-[40px] h-[40px] md:w-[60px] md:h-[60px]' src={facebookIcon} alt="facebook Icon" /></a>
-                        <a href=""><img className='inline ml-[10px] w-[40px] h-[40px] md:w-[60px] md:h-[60px]' src={twitterIcon} alt="twitter Icon" /></a>
-                        <a href=""><img className='inline ml-[10px] w-[40px] h-[40px] md:w-[60px] md:h-[60px]' src={youtubeIcon} alt="youtube Icon" /></a>
+                        <a href="/#"><img className='inline w-[40px] h-[40px] md:w-[60px] md:h-[60px]' src={instagramIcon} alt="Instagram Icon" /></a>
+                        <a href="/#"><img className='inline ml-[10px] w-[40px] h-[40px] md:w-[60px] md:h-[60px]' src={linkedinIcon} alt="linkedin Icon" /></a>
+                        <a href="/#"><img className='inline ml-[10px] w-[40px] h-[40px] md:w-[60px] md:h-[60px]' src={facebookIcon} alt="facebook Icon" /></a>
+                        <a href="/#"><img className='inline ml-[10px] w-[40px] h-[40px] md:w-[60px] md:h-[60px]' src={twitterIcon} alt="twitter Icon" /></a>
+                        <a href="/#"><img className='inline ml-[10px] w-[40px] h-[40px] md:w-[60px] md:h-[60px]' src={youtubeIcon} alt="youtube Icon" /></a>
                     </div>
                 </div>
             </div>
