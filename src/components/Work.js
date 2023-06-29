@@ -5,7 +5,7 @@ import websiteImage3 from '../images/work/website-3.jpg'
 const images = [
     { image: websiteImage1, title: "My Website 1", desc: "react and tailwind css" },
     { image: websiteImage2, title: "My Website 2", desc: "Gatsby and Three.js" },
-    { image: websiteImage3, title: "My Website 4", desc: "React and Three.js" }
+    { image: websiteImage3, title: "My Website 3", desc: "React and Three.js" }
 ]
 
 
